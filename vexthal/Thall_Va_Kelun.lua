@@ -4,9 +4,9 @@ local Z_LEVEL = 100; -- if boss is below this Z, cazic touch players
 
 -- Logic for determining PvP zone to change lower Z_Level
 function event_spawn(e)
-	if (eq.get_zone_guild_id() == 1) then
+	-- if (eq.get_zone_guild_id() == 1) then
     	Z_LEVEL = -43;
-	end
+	-- end
 end
 
 function event_combat(e)

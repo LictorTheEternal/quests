@@ -51,7 +51,7 @@ end
 -- Logic for determining PvP zone to change lower Z_Level
 function event_spawn(e)
 	eq.set_timer("sploitcheck", 5000);
-	if (eq.get_zone_guild_id() == 1) then
+	-- if (eq.get_zone_guild_id() == 1) then
 			Z_LEVEL = -43;
-	end
+	-- end
 end
